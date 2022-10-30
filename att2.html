@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let casa = {
+            qpessoa : '4',
+            qbanheiro : '3',
+            qquarto : '3',
+            rua : 'chã grande'
+        };
+        var bolo = ["farinha", "ovo", "leite","fermento","margarina"]
+        lista = 1
+        window.alert("propiedades de casa:")
+        for (const d in casa){
+
+            window.alert(`${lista}° ${d}: ${casa[d]}`)
+            lista +=1
+
+        }
+        window.alert("ingredentes para fazer um bolo:")
+        lista = 1
+        for (const e of bolo){
+
+            window.alert(`${lista}° ${e}`)
+            lista +=1
+
+        }
+
+
+    </script>
+</body>
+</html>
